@@ -763,8 +763,13 @@ text-align: left;
     background-color: transparent;
     padding-left: 16px;
     display: flex;
-    margin-right: 24px;
     color: var(--white-background-color);
+}
+
+@media screen and (min-width:769px) and (max-width:1157.8px) {
+    .mail-input {
+        width: 264px;
+    }
 }
 
 .mail-input::placeholder {
@@ -1392,6 +1397,11 @@ margin-bottom: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    
+    
 }
 
 .menu-adress-list {
